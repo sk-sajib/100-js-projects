@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: skyblue;
+}
+
+.whether-location {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.whether-info {
+    text-align: center;
+}
+
+.temperature {
+    display: flex;
+    align-items: center;
+    height: 20Vh;
+}
+
+.temperature h2 {
+    font-size: 34px;
+}
+
+.temperature span {
+    margin: 10px;
+    font-size: 22px;
+}
+
